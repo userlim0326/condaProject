@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\workspace\PycharmProjects\pythonProject\Ex01DataAnalysys\P01_textdata_get.py", line 1, in <module>
+    raise Exception('강제 예외 발생')
+Exception: 강제 예외 발생
+ [2024-04-11 14:00:00]
