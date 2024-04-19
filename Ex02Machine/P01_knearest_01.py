@@ -89,3 +89,13 @@ kn49.fit(fish_data, fish_target)  # 학습
 score = kn49.score(fish_data, fish_target)  # 정확도
 print(score)
 print(35/49)
+
+
+
+
+
+
+
+
+
+
