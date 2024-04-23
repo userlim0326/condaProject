@@ -18,7 +18,7 @@ test_input = np.array(test_input).reshape(-1,1)
 train_poly = np.column_stack((train_input**2, train_input))
 test_poly = np.column_stack((test_input**2, test_input))
 print(train_poly.shape, test_poly.shape)
-
+print(train_poly)
 from sklearn.linear_model import LinearRegression
 lr= LinearRegression()
 lr.fit(train_poly, train_target)

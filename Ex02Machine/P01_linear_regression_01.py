@@ -24,13 +24,13 @@ distances, indexes = knr.kneighbors([[50]])
 from sklearn.linear_model import LinearRegression
 lr = LinearRegression()
 lr.fit(train_input, train_target)
-print(lr.predict([[50]]))
+print(lr.predict([[50]])) # length로부터 값을 예측
 print("기울기 {}".format(lr.coef_))
 print("절편 {}".format(lr.intercept_))
 
 print(lr.score(train_input, train_target))
 print(lr.score(test_input, test_target))
-# input > target 과대 적합
+# input > test 과대 적합
 
 print(type(train_input))
 plt.scatter(train_input, train_target) # 훈련세트 산점도
