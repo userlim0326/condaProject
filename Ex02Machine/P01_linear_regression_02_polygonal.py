@@ -34,7 +34,7 @@ plt.xlabel('length');plt.ylabel('weight')
 plt.show()
 print(lr.score(train_poly, train_target))
 print(lr.score(test_poly, test_target))
-
+#
 
 
 
