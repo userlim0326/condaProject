@@ -1,5 +1,9 @@
 import pandas as pd
-
+# Logistic Regression 은 회귀를 통하여 예측을 한다.
+# 전처리 과정을 끝내고 난뒤 자신이 가진 여러 속성들을 통하여
+# 예측을 하게 된다. 이때 z는 속성에 대한 기울기와 절편을 적용한 식을 만들 수 있고,
+# 이 식은 시그모이드 함수를 통과 시키면 확률을 얻을 수 있다. 이 확률은 다시 softmax함수를 통해
+# 1을 기준으로 속성별 지분을 나눠 가진 수치를 표현해 줄 수 있다.
 fish = pd.read_csv('https://bit.ly/fish_csv_data')
 print(fish.head())
 print(pd.unique(fish['Species']))
